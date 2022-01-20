@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>
         خرید آنلاین سرویس برنزی  سیستم امنیت خانگی هوشیار
     </title>
+    <link rel="stylesheet" href="/statics/css/services.css">
 </head>
 <body>
     <nav>
+        <img
+            src="/statics/img/hushyaarLogo.png" 
+            alt="سیستم امنیت خانگی هوشیار"
+        >
         <ul>
             <li>
                 <a
@@ -32,98 +37,86 @@
         <h1>
             سرویس برنزی مخصوص سیستم امنیت خانگی هوشیار
         </h1>
+        <img src="/statics/img/bronze.svg" alt="">
         <section>
+            <dl>
+                <dt>
+                    عنوان
+                </dt>
+                <dd>
+                    سرویس طلایی
+                </dd>
+
+                <dt>
+                    مدت اعتبار
+                </dt>
+                <dd>
+                    شش ماه
+                </dd>
+
+                <dt>
+                    فضای ابری
+                </dt>
+                <dd>
+                    10 گیگ
+                </dd>
+
+                <dt>
+                    قیمت
+                </dt>
+                <dd>
+                    78000 تومان
+                </dd>
+            </dl>
+            
+            <form>
+                <legend>
+                    خرید بسته ی برنزی هوشیار
+                </legend>
+                <ul>
+                    <input type="hidden" value="70" id ='serviceId' name= 'serviceId'>
+                    <li>
+                        <label
+                            for="txtMobileNumber"
+                        >
+                        شماره موبایل:
+                        </label>
+                        <span>
+                            شماره موبایلی که با آن داخل سایت هوشیار ثبت نام کرده اید وارد نمایید.
+                        </span>
+                        <input
+                            type="tel"
+                            id= 'txtMobileNumber'
+                            name= 'txtMobileNumber'
+                            maxlength="11"
+                            minlength="11"
+                        >
+                    </li>
+                    <div>
+                        <button
+                            type="button"
+                        >
+                        سفارش
+                        </button>
+                    </div>
+                </ul>
+            </form>
+        </section>
+        <aside>
             <p>
                 بسته ی برنزی هوشیار، مخصوص سیستم دزدگیر و دوربین مدار بسته ی هوشیار میباشد. 
             </p>
             <p>
                 این بسته برای مدت اعتبار یک ماه و برای حداکثر حجم 1 گیگ می باشد.
             </p>
-        </section>
-        <form>
-            <legend>
-                خرید بسته ی برنزی هوشیار
-            </legend>
-            <ul>
-                <input type="hidden" value="70" id ='serviceId' name= 'serviceId'>
-                <li>
-                    <label
-                        for="txtMobileNumber"
-                    >
-                    شماره موبایل:
-                    </label>
-                    <details>
-                        <summary>
-                        راهنما
-                        </summary>
-                        <p>
-                            شماره موبایلی که با آن داخل سایت هوشیار ثبت نام کرده اید وارد نمایید.
-                        </p>
-                    </details>
-                    <input
-                        type="tel"
-                        id= 'txtMobileNumber'
-                        name= 'txtMobileNumber'
-                        maxlength="11"
-                        minlength="11"
-                    >
-                </li>
-                <div>
-                    <button
-                        type="button"
-                    >
-                    سفارش
-                    </button>
-                </div>
-            </ul>
-        </form>
+
+            <a href="/">
+                لیست تمامی سرویس های هوشیار
+            </a>
+        </aside>
+        
     </main>
-    <aside>
-        <ol>
-            <li>
-                <h2>
-                    لیست سرویسها سیستم امنیت خانگی هوشیار
-                </h2>
-                <ul>
-                    <li>
-                        <a
-                            href="/bronze.html"
-                        >
-                            سرویس برنزی 
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="/silver.html"
-                        >
-                            سرویس نقره ای
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="/gold.html"
-                        >
-                            سرویس طلایی
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <h2>
-                    لیست بسته های پیامکی سیستم امنیت خانگی هوشیار
-                </h2>
-                <ul>
-                    <li>
-                        <a
-                            href="/SMS.html"
-                        >
-                            سرویس پیامکی                            
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ol>
-    </aside>
+
     <footer>
         فشارژ عاملیت فروش بسته های اینترنتی و سرویس های دیجیتال
     </footer>
