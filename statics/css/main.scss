@@ -1,5 +1,40 @@
 @import "normalize";
 
+@font-face {
+  font-family: IRANSansWeb;
+  src: url("../fonts/IRANSansWeb.woff2");
+}
+body {
+  font-family: IRANSansWeb;
+  margin: 0;
+}
+
+@font-face {
+  font-family: IRANSansWeb;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/IRANSansWeb.woff2");
+}
+@font-face {
+  font-family: IRANSansWeb;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/IRANSansWeb.woff2");
+}
+@font-face {
+  font-family: IRANSansWeb;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/IRANSansWeb.woff2");
+}
+@font-face {
+  font-family: IRANSansWeb;
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/IRANSansWeb.woff2");
+}
+
+
 nav {
   display: flex;
   align-items: center;
@@ -25,6 +60,9 @@ nav {
 .container {
   width: 80%;
   margin: auto;
+}
+button{
+  font-family: IRANSansWeb;
 }
 
 #bronze {
