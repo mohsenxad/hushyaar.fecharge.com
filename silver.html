@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="statics/css/main.css">
     <title>
         خرید آنلاین سرویس نقره ای  سیستم امنیت خانگی هوشیار
     </title>
@@ -33,97 +34,90 @@
             </li>
         </ul>
     </nav>
-    <main>
+    <main id="bronze">
         <h1>
             سرویس نقره ای مخصوص سیستم امنیت خانگی هوشیار
         </h1>
+        <img src="/statics/img/silver.svg" alt="bronze" class="side-image">
         <section>
+            <dl>
+                <dt>
+                    عنوان
+                </dt>
+                <dd>
+                    سرویس نقره ای
+                </dd>
+
+                <dt>
+                    مدت اعتبار
+                </dt>
+                <dd>
+                    سه ماه
+                </dd>
+
+                <dt>
+                    فضای ابری
+                </dt>
+                <dd>
+                    5 گیگ
+                </dd>
+
+                <dt>
+                    قیمت
+                </dt>
+                <dd>
+                    42000 تومان
+                </dd>
+            </dl>
+
+            <form>
+                <legend>
+                    خرید بسته ی نقره ای هوشیار
+                </legend>
+                <ul>
+                    <input type="hidden" value="75" id ='serviceId' name= 'serviceId'>
+                    <li>
+                        <label
+                            for="txtMobileNumber"
+                        >
+                        شماره موبایل:
+                        </label>
+                        <input
+                            type="tel"
+                            id= 'txtMobileNumber'
+                            name= 'txtMobileNumber'
+                            maxlength="11"
+                            minlength="11"
+                        >
+                        <span>
+                            شماره موبایلی که با آن داخل سایت هوشیار ثبت نام کرده اید وارد نمایید.
+                        </span>
+                    </li>
+                    <div>
+                        <button
+                            type="button"
+                        >
+                        سفارش
+                        </button>
+                    </div>
+                </ul>
+            </form>
+        </section>
+        
+
+        <aside>
             <p>
                 بسته ی نقره ای هوشیار، مخصوص سیستم دزدگیر و دوربین مدار بسته ی هوشیار میباشد. 
             </p>
             <p>
                 این بسته برای مدت اعتبار سه ماه و برای حداکثر حجم 4 گیگ می باشد.
             </p>
-        </section>
-        <form>
-            <legend>
-                خرید بسته ی نقره ای هوشیار
-            </legend>
-            <ul>
-                <input type="hidden" value="75" id ='serviceId' name= 'serviceId'>
-                <li>
-                    <label
-                        for="txtMobileNumber"
-                    >
-                    شماره موبایل:
-                    </label>
-                    <span>
-                        شماره موبایلی که با آن داخل سایت هوشیار ثبت نام کرده اید وارد نمایید.
-                    </span>
-                    <input
-                        type="tel"
-                        id= 'txtMobileNumber'
-                        name= 'txtMobileNumber'
-                        maxlength="11"
-                        minlength="11"
-                    >
-                </li>
-                <div>
-                    <button
-                        type="button"
-                    >
-                    سفارش
-                    </button>
-                </div>
-            </ul>
-        </form>
+
+            <a href="/">
+                لیست تمامی سرویس های هوشیار
+            </a>
+        </aside>
     </main>
-    <aside>
-        <ol>
-            <li>
-                <h2>
-                    لیست سرویسها سیستم امنیت خانگی هوشیار
-                </h2>
-                <ul>
-                    <li>
-                        <a
-                            href="/bronze.html"
-                        >
-                            سرویس برنزی 
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="/silver.html"
-                        >
-                            سرویس نقره ای
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="/gold.html"
-                        >
-                            سرویس طلایی
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <h2>
-                    لیست بسته های پیامکی سیستم امنیت خانگی هوشیار
-                </h2>
-                <ul>
-                    <li>
-                        <a
-                            href="/SMS.html"
-                        >
-                            سرویس پیامکی                            
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ol>
-    </aside>
     <footer>
         فشارژ عاملیت فروش بسته های اینترنتی و سرویس های دیجیتال
     </footer>
